@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_2" directorySegmentName="seg_0" id="8523A72A-3624-7242-24E5-22A72AEA9DA4">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-13 17:48:40 UTC</createdTime>
+<ownerDesignName>Denormalizacja</ownerDesignName>
+<engineerTo>
+<item key="F7092DD6-32AC-8E5F-FDB1-5E7B0260297D" value="true"/>
+</engineerTo>
+<sourcePk>F4A2E8FE-71F0-CA08-D17F-4BD4F9020551</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>10CAD3D5-8221-D42C-F4AC-4838537BCD93</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E686A7F7-8B21-03BE-4017-CBD100657F73</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

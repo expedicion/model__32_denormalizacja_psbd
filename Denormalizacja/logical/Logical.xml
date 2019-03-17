@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="8151FF6B-F2C7-EC1F-F6BB-39E90F09505D" mainViewID="1948B390-DEDD-6F98-4E84-FCBA59951981">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-13 17:45:48 UTC</createdTime>
+<ownerDesignName>Denormalizacja</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

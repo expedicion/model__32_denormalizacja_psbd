@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E686A7F7-8B21-03BE-4017-CBD100657F73" name="OPERACJE">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-13 17:47:08 UTC</createdTime>
+<ownerDesignName>Denormalizacja</ownerDesignName>
+<engineerTo>
+<item key="F7092DD6-32AC-8E5F-FDB1-5E7B0260297D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="NR_KONTA" id="565097A6-CF11-B512-EE2C-D6AE59371D5D">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-13 17:47:17 UTC</createdTime>
+<ownerDesignName>Denormalizacja</ownerDesignName>
+<engineerTo>
+<item key="F7092DD6-32AC-8E5F-FDB1-5E7B0260297D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_OPERACJI" id="91484B28-F02F-FDCD-9468-2DA0ADBA6A45">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-13 17:47:27 UTC</createdTime>
+<ownerDesignName>Denormalizacja</ownerDesignName>
+<engineerTo>
+<item key="F7092DD6-32AC-8E5F-FDB1-5E7B0260297D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DATA_I_CZAS" id="1C208EB5-6C94-F78D-FC3A-A9AEA95B6CCE">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-13 17:47:35 UTC</createdTime>
+<ownerDesignName>Denormalizacja</ownerDesignName>
+<engineerTo>
+<item key="F7092DD6-32AC-8E5F-FDB1-5E7B0260297D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TYP_OPERACJI" id="1D08CE24-C550-4220-BC7B-523E278D96FA">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-13 17:47:46 UTC</createdTime>
+<ownerDesignName>Denormalizacja</ownerDesignName>
+<engineerTo>
+<item key="F7092DD6-32AC-8E5F-FDB1-5E7B0260297D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="KWOTA" id="490801B2-3360-0375-7F83-CFFDA983375E">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-13 17:47:59 UTC</createdTime>
+<ownerDesignName>Denormalizacja</ownerDesignName>
+<engineerTo>
+<item key="F7092DD6-32AC-8E5F-FDB1-5E7B0260297D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SALDO_PO_OPERACJI" id="1484EF25-496F-E2D4-7F26-B22B40CEAEB2">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-13 17:48:04 UTC</createdTime>
+<ownerDesignName>Denormalizacja</ownerDesignName>
+<engineerTo>
+<item key="F7092DD6-32AC-8E5F-FDB1-5E7B0260297D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_KONTA1" id="73D33628-2B61-E69C-BBD4-1FED9190A143">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-13 17:48:40 UTC</createdTime>
+<generatorID>8523A72A-3624-7242-24E5-22A72AEA9DA4</generatorID>
+<ownerDesignName>Denormalizacja</ownerDesignName>
+<engineerTo>
+<item key="F7092DD6-32AC-8E5F-FDB1-5E7B0260297D" value="true"/>
+</engineerTo>
+<referedAttribute>3243D71B-C9CE-4A10-B64B-5FE7A5E775F8</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C428D7BE-C077-91C6-331B-02D90C7B2424" name="OPERACJE PK">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-13 17:47:23 UTC</createdTime>
+<ownerDesignName>Denormalizacja</ownerDesignName>
+<engineerTo>
+<item key="F7092DD6-32AC-8E5F-FDB1-5E7B0260297D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>565097A6-CF11-B512-EE2C-D6AE59371D5D</attributeRef>
+<attributeRef>91484B28-F02F-FDCD-9468-2DA0ADBA6A45</attributeRef>
+<attributeRef>73D33628-2B61-E69C-BBD4-1FED9190A143</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="10CAD3D5-8221-D42C-F4AC-4838537BCD93" name="KONTO">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-13 17:46:15 UTC</createdTime>
+<ownerDesignName>Denormalizacja</ownerDesignName>
+<engineerTo>
+<item key="F7092DD6-32AC-8E5F-FDB1-5E7B0260297D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="NR_KONTA" id="3243D71B-C9CE-4A10-B64B-5FE7A5E775F8">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-13 17:46:21 UTC</createdTime>
+<ownerDesignName>Denormalizacja</ownerDesignName>
+<engineerTo>
+<item key="F7092DD6-32AC-8E5F-FDB1-5E7B0260297D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NAZWA_WLASCICIELA" id="EDB3D62E-E14E-5CC0-EE21-FD039226FCE1">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-13 17:46:29 UTC</createdTime>
+<ownerDesignName>Denormalizacja</ownerDesignName>
+<engineerTo>
+<item key="F7092DD6-32AC-8E5F-FDB1-5E7B0260297D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="BIEZACE_SALDO" id="6D6DC82E-945B-384F-9101-BB48D981D5DA">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-13 17:46:47 UTC</createdTime>
+<ownerDesignName>Denormalizacja</ownerDesignName>
+<engineerTo>
+<item key="F7092DD6-32AC-8E5F-FDB1-5E7B0260297D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F4A2E8FE-71F0-CA08-D17F-4BD4F9020551" name="KONTO PK">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-13 17:46:28 UTC</createdTime>
+<ownerDesignName>Denormalizacja</ownerDesignName>
+<engineerTo>
+<item key="F7092DD6-32AC-8E5F-FDB1-5E7B0260297D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3243D71B-C9CE-4A10-B64B-5FE7A5E775F8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
